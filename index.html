@@ -1,16 +1,280 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HB SPORT - TIENDA DE ARQUEROS</title>
+    <!-- SEO -->
+    <meta name="description" content="HB Sport es la tienda de arqueros más grande del país. 
+        Durante los últimos 9 años, nos hemos establecido como líderes en el mercado, 
+        ofreciendo una amplia variedad de productos de alta calidad para arqueros de 
+        todas las edades y niveles de habilidad.">
+    <meta name="keywords" content="ARQUEROS, GUANTES DE ARQUEROS, FÚTBOL, DEPORTES, FOOTBALL, 
+        Protecciones de arquero, Ropa deportiva para arqueros, Tienda de arqueros, Entrenamiento de arquero">
+    <title>Tienda de Arqueros</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- TRANSICIONES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ICONOS -->
+    <script src="https://kit.fontawesome.com/ef84cedd25.js" crossorigin="anonymous"></script>
+    <!-- HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav></nav>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html"><img src="images/logo-solo-letras.png" alt="Logo de la empresa"></a>
+            <input type="checkbox" name="" id="menu">
+            <label for="menu"><img src="./images/menu.png" class="menu-icono" alt="Icono del menu"></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./sobre-nosotros.html">Sobre Nosostros</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt" data-aos="fade-up" data-aos-once="true">
+                <h1>HB Sport</h1>
+                <span>Tienda de Arqueros</span>
+                <p>
+                    ¡Bienvenidos a la tienda más grande de arqueros de Argentina! Si sos un amante del fútbol y, en
+                    particular, de la posición de arquero, estás en el lugar correcto. Somos una empresa especializada
+                    en ofrecer productos y servicios para aquellos que comparten nuestra pasión por el fútbol y, en
+                    particular, por la posición de arquero.
+                </p>
+                <a href="sobre-nosotros.html" class="btn-1" data-aos="fade-up" data-aos-once="true">Información</a>
+            </div>
+            <div class="header-info">
+                <div class="info" data-aos="fade-up-right" data-aos-once="true">
+                    <h3>Ubicación</h3>
+                    <p>Santa Fe Capital</p>
+                    <p>Argentina</p>
+                </div>
+                <div class="info" data-aos="fade-up" data-aos-once="true">
+                    <h3>Telefono</h3>
+                    <a class="tel" href="tel:+543426146700" target="_blank" rel="noopener noreferrer">342 614 6700</a>
+                </div>
+                <div class="info" data-aos="fade-up-left" data-aos-once="true">
+                    <h3>Horarios</h3>
+                    <p>09:00-12:30</p>
+                    <p>16:30-19:30</p>
+                </div>
+            </div>
+        </div>
     </header>
+    <section class="welcome">
+        <div class="welcome-1"></div>
+        <div class="welcome-2">
+            <h2 data-aos="fade-left" data-aos-once="true">La tienda de arqueros más grande del país</h2>
+            <p class="b1" data-aos="fade-left" data-aos-once="true">
+                ¡Bienvenidos a la tienda más grande de arqueros de Argentina!
+            </p>
+            <p data-aos="fade-left" data-aos-once="true">
+                Durante los últimos 9 años, nos hemos
+                establecido como líderes en el mercado, ofreciendo una amplia variedad de productos de alta calidad
+                para arqueros de todas las edades y niveles de habilidad.
+            </p>
+            <a href="sobre-nosotros.html" class="btn-1" data-aos="fade-left" data-aos-once="true">Más</a>
+        </div>
+    </section>
+    <section class="brands" data-aos="fade-up" data-aos-once="true">
+        <div class="container marcas">
+            <div class="titulo-marcas">
+                <h2>Marcas</h2>
+            </div>
+            <div class="brand-group">
+                <div class="brand" style="--i:url(../images/reusch.png)" data-aos="fade-up-right" data-aos-once="true">
+                    <div class="content">
+                        <a href="./productos.html">REUSCH</a>
+                    </div>
+                </div>
+                <div class="brand" style="--i:url(../images/n1gloves.png)" data-aos="fade-up" data-aos-once="true">
+                    <div class="content">
+                        <a href="./productos.html">N1 GLOVES</a>
+                    </div>
+                </div>
+                <div class="brand" style="--i:url(../images/prostar.png)" data-aos="fade-up-left" data-aos-once="true">
+                    <div class="content">
+                        <a href="./productos.html">PROSTAR</a>
+                    </div>
+                </div>
+            </div>
+            <a href="./productos.html" class="btn-1">Más Marcas</a>
+        </div>
+    </section>
+    <main class="catalog">
+        <div class="titulo-catalogo container" data-aos="fade-up" data-aos-once="true">
+            <h3>Destacados</h3>
+            <a href="./productos.html">Ver más Productos</a>
+        </div>
+        <div class="container catalogo" data-aos="fade-up" data-aos-once="true">
+            <div class="card card-s">
+                <img src="./images/reusch-attrack-gold-junior.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">Reusch Guante Attrakt Pro Gold</h5>
+                    <p class="card-text-s">PALMA: Infinity, TALLE: Junior, CORTE: Evolution Negative</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/drb-feline-22pro.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">Dribbling Feline 22 PRO</h5>
+                    <p class="card-text-s">PALMA: Latex, TALLE: Adulto, CORTE: Híbrido (Rollfinger/Flat) </p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/prostar-reptile.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">Prostar Reptile Supersoft Classic</h5>
+                    <p class="card-text-s">PALMA: Látex 4mm, TALLE: Adulto, CORTE: Flat</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/drb-royal-3.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">Reusch Atrakt Freegel Infinity</h5>
+                    <p class="card-text-s">PALMA: Látex alemán 3 mm, TALLE: Adulto, CORTE: Flat</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/reusch-legacy-gold.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">Reusch Legacy Gold X</h5>
+                    <p class="card-text-s">PALMA: Gold, TALLE: Adulto, CORTE: Evolution Negative</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/ares-neon.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">N1 GLOVES Ares Neon</h5>
+                    <p class="card-text-s">PALMA: Látex alemán 4 mm, TALLE: Adulto, CORTE: Ergo-Roll</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/n1-sirius.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">N1 GLOVES - SIRIUS ORANGE</h5>
+                    <p class="card-text-s">PALMA: Látex alemán SSG de 3.5 mm, TALLE: Adulto, CORTE: Negativo</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/prostar-thunder.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">Prostar Thunder Semi Roll</h5>
+                    <p class="card-text-s">PALMA: Latex 4mm, TALLE: Adulto CORTE: Molderia “DUO AROUND”</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/prostar-neosense-yellow.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">Prostar Neosense Yellow</h5>
+                    <p class="card-text-s">PALMA: Látex ultra resistent, TALLE: Adulto, CORTE: Negativo</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="card card-s">
+                <img src="./images/xtreme-guard-superior.webp" class="card-img-top" alt="Producto en venta">
+                <div class="card-body">
+                    <h5 class="card-title-s">Xtreme Guard Superior Alpha Negro</h5>
+                    <p class="card-text-s">PALMA: Super Softy Xp, TALLE: Adulto, CORTE: Negativo</p>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn btn-primary">Contactar por
+                        Instagram</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="direc">
+        <div class="content-direc" data-aos="fade-right" data-aos-once="true">
+            <h2>Locales</h2>
+            <p>
+                Nuestra empresa tiene su sede en la ciudad de Santa Fe, Argentina, ubicada específicamente en la Av.
+                Aristóbulo del Valle 4234. Desde aquí, brindamos servicios de calidad a todos nuestros clientes, y nos
+                esforzamos por ofrecer soluciones innovadoras y efectivas a sus necesidades.
+            </p>
+            <p>
+                Además, recientemente hemos expandido nuestra franquicia a la ciudad de Paraná, donde hemos abierto un
+                nuevo local en la calle Alem 515. Con esta nueva ubicación, esperamos poder llegar a una audiencia aún
+                más amplia y seguir creciendo como empresa.
+            </p>
+        </div>
+        <div class="content-direc2" data-aos="fade-left" data-aos-once="true">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.177955951966!2d-60.70265058476145!3d-31.62897761373209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9937fe849f7%3A0x9dbff6ac8c4f60aa!2sHB%20SPORT%20-%20TIENDA%20DE%20ARQUEROS!5e0!3m2!1ses!2sar!4v1676927433469!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container pie">
+            <div class="row">
+                <div class="col">
+                    <h2>Tenés alguna consulta?</h2>
+                    <a href="https://ig.me/m/hbsport" target="_blank" class="btn-1">Contactanos</a>
+                </div>
+                <div class="col">
+                    <h3>Atención al cliente</h3>
+                    <div class="acceso">
+                        <p>Teléfono:</p>
+                        <a href="tel:+543426146700" class="link">342 614 6700</a>
+                    </div>
+                    <p>Lunes a Viernes de 9 a 12:30 hs</p>
+                    <p>Sábados de 9:30 a 12:30 hs</p>
+                    <p>Medios de envío</p>
+                </div>
+                <div class="col">
+                    <h3>Información de la empresa</h3>
+                    <a href="./sobre-nosotros.html" class="link">Sobre Nosotros</a>
+                    <div class="acceso contacto">
+                        <p>Contacto:</p>
+                        <a href=mailto:hbsport@hotmail.com class="link" target="_blank"
+                            rel="noopener noreferrer">hbsport@hotmail.com</a>
+                    </div>
+                </div>
+                <div class="col col-redes">
+                    <div class="redes">
+                        <a href="https://www.instagram.com/hbsport/" target="_blank" rel="noopener noreferrer"><i
+                                class="iconos fa-brands fa-2x fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/people/Hb-Sport-Tienda-de-Arqueros/100063551755166/"
+                            target="_blank" rel="noopener noreferrer"><i
+                                class="iconos fa-brands fa-2x fa-facebook"></i></a>
+                        <a href="https://twitter.com/hb_soloarqueros" target="_blank" rel="noopener noreferrer"><i
+                                class="iconos fa-brands fa-2x fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
